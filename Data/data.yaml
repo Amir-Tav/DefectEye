@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fail']
+
+roboflow:
+  workspace: defecteye
+  project: 3dprinting-tgipv
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/defecteye/3dprinting-tgipv/dataset/1
