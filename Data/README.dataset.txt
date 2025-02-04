@@ -1,4 +1,4 @@
-# 3Dprinting > 2025-01-26 1:10pm
+# 3Dprinting > 2025-02-04 11:36am
 https://universe.roboflow.com/defecteye/3dprinting-tgipv
 
 Provided by a Roboflow user
