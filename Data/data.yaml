@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['fail']
+nc: 3
+names: ['NoDefects', 'YesDefects', 'fail']
 
 roboflow:
   workspace: defecteye
   project: 3dprinting-tgipv
-  version: 1
+  version: 2
   license: Public Domain
-  url: https://universe.roboflow.com/defecteye/3dprinting-tgipv/dataset/1
+  url: https://universe.roboflow.com/defecteye/3dprinting-tgipv/dataset/2
