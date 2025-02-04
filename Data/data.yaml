@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['fail']
+nc: 5
+names: ['spaghetti', 'stringing', 'under extrusion', 'warping', 'zits']
 
 roboflow:
-  workspace: defecteye
-  project: 3dprinting-tgipv
-  version: 3
-  license: Public Domain
-  url: https://universe.roboflow.com/defecteye/3dprinting-tgipv/dataset/3
+  workspace: 3d-defects
+  project: 3d-error-monitoring3
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/3d-defects/3d-error-monitoring3/dataset/11
